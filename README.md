@@ -21,7 +21,7 @@ conda activate w4f_evn
 
 ### Datasets and evaluation procedure
 
-The code for simulation and algorithms defined in our paper is provided in [./code]. An anonymized version of the proprietary dataset is available at "https://drive.google.com/drive/folders/17e6ZXzD8e9lAdnBEL8aT09MLJDrv1Yh8?usp=sharing" or "https://bit.ly/3HGdavB".
+The code for simulation and algorithms defined in our paper is provided in [./code]. An anonymized version of the proprietary dataset will be made available once an agreement is signed. Instructions to request data are available at this [link](https://www.cse.iitd.ac.in/~sayan/files/foodmatch.txt).
 
 
 ## References

@@ -1,6 +1,6 @@
 ## Installation
 
-1. Obtain the anonymized data from "https://bit.ly/3HGdavB" and keep the data according to the following directory structure:
+1. Obtain the anonymized data from [link](https://www.cse.iitd.ac.in/~sayan/files/foodmatch.txt) and keep the data according to the following directory structure:
 
 ```
 .
@@ -102,18 +102,18 @@
    ```
 
 2. GPR Training: 
-  
+
   - Training Data: Day 2 and day 5 are training days. Run WORK4FOOD on these days with 100,90,80,70 and 60 fraction of agents available.
-   Example:
+      Example:
    ```bash
    cd pytorch-cpp/build/
    ./main -algo WORK4FOOD -city A -day 2 -eta 60 -k 200 -gamma 0.5 -delta 180 -start 0 -end 24 -de_frac 0.9 -gpr_model ../../gpr_models/model_A_days_2_and_5_25_static_pay_2 > ../../results/A/2/WORK4FOOD_0_24_25_static_frac90.results
-   ``` 
+   ```
 
    - Usage : 
    ```bash
    python3 gpr_training/work_predict.py [city_name]  
-   ``` 
+   ```
 
     - **city_name**: Name of city whose GPR model is to be learnt \[Required\]
       ```
@@ -154,7 +154,7 @@
      ```
      '{_25_static, _25_static_frac{int(100*fraction_agents)}, _25_static_driverreject, _dynamic, _dynamic_driverreject, _rating}'
      ```
-  
+    
    - Sample command:
 
     ```bash
